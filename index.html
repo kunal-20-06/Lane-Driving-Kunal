@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Bhatia - Growth Manager for Lane</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="progress-bar"></div>
+    
+    <nav class="navbar">
+        <div class="nav-brand">Kunal Bhatia</div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#love-story">Origin</a>
+            <a href="#passion">Passion</a>
+            <a href="#garage">Garage</a>
+            <a href="#expertise">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-quote">
+                <blockquote>"I live my life a quarter mile at a time. Nothing else matters."</blockquote>
+                <cite>- Dom Toretto, The Fast and the Furious</cite>
+            </div>
+            <h1 class="hero-title">Growth Manager who drives results with <span class="highlight">precision</span></h1>
+            <p class="hero-subtitle">17 years of safe driving meets proven growth marketing expertise. Ready to accelerate Lane's growth story.</p>
+            <div class="hero-cta">
+                <button class="btn btn--primary" onclick="scrollToSection('love-story')">Start The Engine</button>
+                <button class="btn btn--outline" onclick="scrollToSection('contact')">Get In Touch</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="speedometer">
+                <div class="needle"></div>
+                <div class="speed-text">100% Safety Score</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="love-story" class="section love-story-section">
+        <div class="container">
+            <h2 class="section-title">Falling in Love with Driving</h2>
+            <p class="section-subtitle">Where it all began - 32 years ago</p>
+            
+            <div class="story-content">
+                <div class="story-text">
+                    <div class="story-highlight">
+                        <span class="story-age">4-5 months old</span>
+                        <span class="story-year">1993</span>
+                    </div>
+                    <p class="story-description">
+                        Late evening, empty road - yeah back in 1993 that was pretty common. My dad was driving his Maruti 800 
+                        <strong>(DL 2 CC 1339)</strong> and decided to put me in his lap. My first instinct was to hold the steering wheel, 
+                        and immediately I started <em>cooing and smiling with joy</em>.
+                    </p>
+                    <div class="story-conclusion">
+                        <strong>32 years later, and I've never looked back.</strong>
+                    </div>
+                </div>
+                <div class="story-image">
+                    <div class="image-placeholder maruti-800">
+                        <div class="placeholder-content">
+                            <div class="car-icon">🚗</div>
+                            <h4>Maruti 800</h4>
+                            <p>DL 2 CC 1339</p>
+                            <span class="placeholder-year">1993</span>
+                        </div>
+                    </div>
+                    <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/800.jpeg" 
+                         alt="Maruti 800 - Where the love began" 
+                         loading="lazy"
+                         style="display: none;"
+                         onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+                         onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                    <div class="image-caption">The legendary Maruti 800 - DL 2 CC 1339</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="first-drive" class="section first-drive-section">
+        <div class="container">
+            <h2 class="section-title">My First Drive</h2>
+            <p class="section-subtitle">The moment I took control</p>
+            
+            <div class="first-drive-content">
+                <div class="drive-image">
+                    <div class="image-placeholder first-drive">
+                        <div class="placeholder-content">
+                            <div class="car-icon">🏎️</div>
+                            <h4>First Drive</h4>
+                            <p>The Beginning</p>
+                            <span class="placeholder-text">Learning the ropes</span>
+                        </div>
+                    </div>
+                    <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/First-Drive.jpeg" 
+                         alt="My first driving experience" 
+                         loading="lazy"
+                         style="display: none;"
+                         onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+                         onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                    <div class="image-caption">First time behind the wheel</div>
+                </div>
+                <div class="drive-story">
+                    <h3>The Beginning of My Journey</h3>
+                    <p>Every great driver remembers their first time behind the wheel. This moment captured the beginning of what would become a lifelong passion for precision, control, and the open road ahead.</p>
+                    <p>From that first nervous grip on the steering wheel to mastering the art of safe, confident driving - this is where my journey to understanding customer behavior, market navigation, and growth strategy truly began.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="passion" class="section passion-section">
+        <div class="container">
+            <h2 class="section-title">Passion Meets Performance</h2>
+            <p class="section-subtitle">Just like Dom values family and precision, I value safety and results</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🚗</div>
+                    <div class="stat-number" data-target="17">0</div>
+                    <div class="stat-label">Years Safe Driving</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🛣️</div>
+                    <div class="stat-number" data-target="130000">0</div>
+                    <div class="stat-label">Kilometres Explored</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🚫</div>
+                    <div class="stat-number" data-target="0">0</div>
+                    <div class="stat-label">Challans Ever</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Cities Explored</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⚙️</div>
+                    <div class="stat-number-text">300+</div>
+                    <div class="stat-label">Process Automation</div>
+                    <div class="stat-subtitle">Only Manual I like is my car</div>
+                </div>
+            </div>
+
+            <div class="driving-philosophy">
+                <h3>My Driving Philosophy</h3>
+                <div class="philosophy-grid">
+                    <div class="philosophy-item">
+                        <strong>Safety First:</strong> Like Niki Lauda in Rush - calculated risks, maximum results
+                    </div>
+                    <div class="philosophy-item">
+                        <strong>Precision Matters:</strong> Every turn planned, every move measured
+                    </div>
+                    <div class="philosophy-item">
+                        <strong>Care & Maintenance:</strong> Proper preparation prevents poor performance
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="garage" class="section garage-section">
+        <div class="container">
+            <h2 class="section-title">My Garage</h2>
+            <p class="section-subtitle">The machines that fuel my passion</p>
+            
+            <div class="vehicles-section">
+                <h3 class="vehicles-title">Current Rides</h3>
+                <div class="vehicles-grid">
+                    <div class="vehicle-card">
+                        <div class="vehicle-images">
+                            <div class="image-placeholder vehicle yoda">
+                                <div class="placeholder-content">
+                                    <div class="car-icon">🏍️</div>
+                                    <h4>Yoda</h4>
+                                    <p>Green Honda Hness CB350</p>
+                                </div>
+                            </div>
+                            <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/Yoda1.jpg" 
+                                 alt="Yoda - Green Honda Hness CB350" 
+                                 loading="lazy"
+                                 class="vehicle-img active"
+                                 style="display: none;"
+                                 onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+                                 onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                            <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/Yoda2.jpg" 
+                                 alt="Yoda - Another angle" 
+                                 loading="lazy"
+                                 class="vehicle-img"
+                                 style="display: none;"
+                                 onload="this.style.display='block';"
+                                 onerror="this.style.display='none';">
+                        </div>
+                        <div class="vehicle-info">
+                            <h4 class="vehicle-name">Yoda</h4>
+                            <p class="vehicle-model">Green Honda Hness CB350</p>
+                            <div class="vehicle-dots">
+                                <span class="dot active" onclick="switchImage(this, 0)"></span>
+                                <span class="dot" onclick="switchImage(this, 1)"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-images">
+                            <div class="image-placeholder vehicle ghost">
+                                <div class="placeholder-content">
+                                    <div class="car-icon">🚗</div>
+                                    <h4>Ghost</h4>
+                                    <p>White Chevrolet Cruze</p>
+                                </div>
+                            </div>
+                            <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/Cruze.jpg" 
+                                 alt="Ghost - White Chevrolet Cruze" 
+                                 loading="lazy"
+                                 class="vehicle-img active"
+                                 style="display: none;"
+                                 onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+                                 onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                        </div>
+                        <div class="vehicle-info">
+                            <h4 class="vehicle-name">Ghost</h4>
+                            <p class="vehicle-model">White Chevrolet Cruze</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vehicles-section">
+                <h3 class="vehicles-title">Previous Rides</h3>
+                <div class="vehicles-grid">
+                    <div class="vehicle-card">
+                        <div class="vehicle-images">
+                            <div class="image-placeholder vehicle raiden">
+                                <div class="placeholder-content">
+                                    <div class="car-icon">🚙</div>
+                                    <h4>Raiden</h4>
+                                    <p>Honda Amaze</p>
+                                </div>
+                            </div>
+                            <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/Amaze.jpg" 
+                                 alt="Raiden - Honda Amaze" 
+                                 loading="lazy"
+                                 class="vehicle-img active"
+                                 style="display: none;"
+                                 onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+                                 onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                        </div>
+                        <div class="vehicle-info">
+                            <h4 class="vehicle-name">Raiden</h4>
+                            <p class="vehicle-model">Honda Amaze</p>
+                        </div>
+                    </div>
+                    
+                    <div class="vehicle-card">
+                        <div class="vehicle-images">
+                            <div class="image-placeholder vehicle hellride">
+                                <div class="placeholder-content">
+                                    <div class="car-icon">🏍️</div>
+                                    <h4>Hellride</h4>
+                                    <p>Honda Stunner</p>
+                                </div>
+                            </div>
+                            <img src="https://raw.githubusercontent.com/kunal-20-06/Lane-Driving-Kunal/main/Stunner1.jpg" 
+                                 alt="Hellride - Honda Stunner" 
+                                 loading="lazy"
+                                 class="vehicle-img active"
+                                 style="display: none;"
+                                 onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+                                 onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                        </div>
+                        <div class="vehicle-info">
+                            <h4 class="vehicle-name">Hellride</h4>
+                            <p class="vehicle-model">Honda Stunner</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-lane" class="section why-lane-section">
+        <div class="container">
+            <h2 class="section-title">Why Lane Needs a Motor Head</h2>
+            <div class="philosophy-quote">
+                <blockquote>
+                    "Growth Marketing mirrors high-precision driving. Success demands constant focus, reading every market signal, 
+                    anticipating competitor moves, and executing swift strategic decisions without losing momentum. Sometimes hitting 
+                    the brakes isn't failure—it's wisdom. It gives you the space to recalibrate, reassess the road ahead, and time 
+                    your next move perfectly. The best drivers, like the best growth marketers, know when to accelerate and when to pause."
+                </blockquote>
+                <cite>~ My Philosophy</cite>
+            </div>
+            
+            <div class="connection-grid">
+                <div class="connection-card">
+                    <h3>Understanding the Customer</h3>
+                    <p>I know what drivers want because I AM a driver. Every morning when I start my bike, I think about safety, control, and the road ahead - just like your students.</p>
+                </div>
+                <div class="connection-card">
+                    <h3>Teaching with Patience</h3>
+                    <p>Like the driving instructor in 'Learning to Drive' - "Patience and precision - that's what makes a great teacher." Growth marketing is about teaching customers to trust your brand.</p>
+                </div>
+                <div class="connection-card">
+                    <h3>Safety = Trust = Growth</h3>
+                    <p>My zero challan record shows discipline. In growth marketing, this means building systems that work consistently without breaking customer trust.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="section expertise-section">
+        <div class="container">
+            <h2 class="section-title">Growth Marketing Engine</h2>
+            <p class="section-subtitle">"Go like hell, but do it with precision" - Ford v Ferrari</p>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">💰</div>
+                    <div class="achievement-number" data-target="160">0</div>
+                    <div class="achievement-unit">Cr Transactions</div>
+                    <div class="achievement-desc">Drove Paytm's UPI growth</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">📈</div>
+                    <div class="achievement-number" data-target="14.7">0</div>
+                    <div class="achievement-unit">% Market Share</div>
+                    <div class="achievement-desc">From 12.9% to 14.7%</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎯</div>
+                    <div class="achievement-number" data-target="210">0</div>
+                    <div class="achievement-unit">₹ CAC Reduction</div>
+                    <div class="achievement-desc">Optimized acquisition cost</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🔄</div>
+                    <div class="achievement-number" data-target="23.2">0</div>
+                    <div class="achievement-unit">% Conversion Rate</div>
+                    <div class="achievement-desc">From 8.7% to 23.2%</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">💎</div>
+                    <div class="achievement-number" data-target="39">0</div>
+                    <div class="achievement-unit">% ARPU Growth</div>
+                    <div class="achievement-desc">Revenue per user boost</div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">⚙️</div>
+                    <div class="achievement-number" data-target="300">0</div>
+                    <div class="achievement-unit">+ Process Automation</div>
+                    <div class="achievement-desc">Only Manual I like is my car</div>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h3>Core Skills</h3>
+                <div class="skills-grid">
+                    <span class="skill-tag">Performance Marketing</span>
+                    <span class="skill-tag">Growth Hacking</span>
+                    <span class="skill-tag">User Acquisition</span>
+                    <span class="skill-tag">Retention Marketing</span>
+                    <span class="skill-tag">A/B Testing</span>
+                    <span class="skill-tag">Data Analytics</span>
+                    <span class="skill-tag">Funnel Optimization</span>
+                    <span class="skill-tag">Partnership Development</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fit" class="section strategic-fit-section">
+        <div class="container">
+            <h2 class="section-title">Strategic Fit Analysis</h2>
+            <div class="market-insights">
+                <div class="insight-card">
+                    <h3>Market Size</h3>
+                    <div class="big-number">$15+ Billion</div>
+                    <p>Indian driving education market size</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Growth Rate</h3>
+                    <div class="big-number">4.9% CAGR</div>
+                    <p>Annual growth opportunity</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Safety Issue</h3>
+                    <div class="big-number">1.72 Lakh</div>
+                    <p>Annual road fatalities in India</p>
+                </div>
+            </div>
+            
+            <div class="alignment-score">
+                <h3>Why I'm the Right Fit</h3>
+                <div class="score-bar">
+                    <div class="score-label">User Alignment Score</div>
+                    <div class="score-visual">
+                        <div class="score-fill" data-score="98"></div>
+                        <span class="score-number">9.8/10</span>
+                    </div>
+                </div>
+                <div class="score-bar">
+                    <div class="score-label">Market Opportunity Score</div>
+                    <div class="score-visual">
+                        <div class="score-fill" data-score="91"></div>
+                        <span class="score-number">9.1/10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="movie-references" class="section movie-section">
+        <div class="container">
+            <h2 class="section-title">Lessons from the Road & Screen</h2>
+            <div class="movie-quotes">
+                <div class="quote-card">
+                    <blockquote>"The closer you are to death, the more alive you feel."</blockquote>
+                    <cite>- Niki Lauda, Rush</cite>
+                    <p>Growth marketing is about taking calculated risks. My zero challan record shows I understand this balance perfectly.</p>
+                </div>
+                <div class="quote-card">
+                    <blockquote>"Patience and precision - that's what makes a great teacher."</blockquote>
+                    <cite>- Learning to Drive</cite>
+                    <p>Customer education is key to growth. Every campaign teaches users why they should trust your brand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Ready to Hit the Road Together?</h2>
+            <p class="contact-intro">Let's discuss how my passion for driving and proven growth marketing skills can accelerate Lane's success.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Schedule a Call</h3>
+                    <p>Let's talk about your growth challenges and how I can help solve them.</p>
+                    <button class="btn btn--primary">Book Meeting</button>
+                </div>
+                <div class="contact-card">
+                    <h3>View Portfolio</h3>
+                    <p>See detailed case studies of my growth marketing campaigns.</p>
+                    <button class="btn btn--outline">See Work</button>
+                </div>
+                <div class="contact-card">
+                    <h3>Connect</h3>
+                    <p>LinkedIn: kunalbhatia-growth<br>Email: kunal@growth.drive</p>
+                    <button class="btn btn--secondary">Get in Touch</button>
+                </div>
+            </div>
+
+            <div class="final-quote">
+                <blockquote>"It's not about the car you drive, but how you drive the car."</blockquote>
+                <p>Ready to drive Lane's growth with the same precision I drive on roads.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
